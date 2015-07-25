@@ -9,4 +9,34 @@ repository? What value do you think it offers?
     are "staged" to go into the repository.  It gives you a chance to review
     the files that are going to be committed.
 
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    You can review the files prior to committing them to the repository.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+    When you want to try to develop new features without effecting the
+    stable code. When you want to explore complex routines without effecting
+    the production code. Branches help maintain seperate ideas from the main
+    code.
+
+How do the diagrams help you visualize the branch structure?
+
+    It shows how branches relate to the master and each other.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    It combines the changes of both branches. Because it collapses two
+    branches into one "closes the loop" and makes one tip.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+    Pro - makes it easier to do commits
+    Con - may make a wrong assumption
+
+
 
